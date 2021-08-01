@@ -1,3 +1,9 @@
+## First install all the package for the program
+## pip install opencv-python
+## pip install numpy
+## pip install python-time
+## pip install opencv-contrib-python
+
 import cv2
 import numpy as np
 from time import sleep
