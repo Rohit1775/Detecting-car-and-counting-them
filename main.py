@@ -23,7 +23,7 @@ def pega_centro(x, y, w, h):
     return cx, cy
 
 
-cap = cv2.VideoCapture('video.mp4')
+cap = cv2.VideoCapture('video.mp4') # change the video name as per the name of your video
 subtracao = cv2.bgsegm.createBackgroundSubtractorMOG()
 
 while True:
